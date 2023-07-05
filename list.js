@@ -29,7 +29,7 @@ function getPageno() {
     return await $.ajax(url);
   }catch(err) {
     console.log(err);
-    return nul
+    return null;
     }
   }
 
